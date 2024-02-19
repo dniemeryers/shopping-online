@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 
 import {Anunciar} from './style';
 
-import LogoIcnv from '../../img/logo icnv branco.png';
+import LogoShop40 from '../../img/logo_shop40_branco-removebg-preview.png';
 import Fechar from '../../img/fechar.png';
 
 
@@ -24,7 +24,7 @@ return(
     <Anunciar>
        
         <div className='informacao'>
-        <img className="logoIcnv" src={LogoIcnv} alt="" />
+        <img className="logoIcnv" src={LogoShop40} alt="" />
           <button className='fechar' onClick={handleClose}><div><img width="45px" src={Fechar} alt="" /></div></button>
         </div>
     </Anunciar> )}     

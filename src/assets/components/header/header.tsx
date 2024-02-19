@@ -7,7 +7,7 @@ import { motion, useAnimation } from 'framer-motion'
 import { SocialIcon } from "react-social-icons"
 import Foto from '../../img/perfil-diego.png'
 import Aovivo from '../../img/AOVIVO.png'
-import LogoIcnv from '../../img/logo icnv branco.png'
+import LogoShop40 from '../../img/logo_shop40_branco-removebg-preview.png'
 import PDF from '../../img/pdf.png'
 
 
@@ -36,25 +36,12 @@ export function Header() {
     <Container style={{zIndex: '3'}}  >
       <div className="icons">
       <div className='logo'>
-      <NavLink className={'navlink1'} to="/home"><img className="perfil" src={LogoIcnv} width="60px" height="50px" alt="" /></NavLink>
+      <NavLink className={'navlink1'} to="/home"><img className="perfil" width="50px" src={LogoShop40} height="50px" alt="" /></NavLink>
      
      
-      <motion.div
-             initial={{
-                x: 1500,
-                opacity: 0,
-                scale: 0.5,
-             }}
-             animate={{
-                x: 0,
-                opacity: 1,
-                scale: 1,
-             }}
-             transition={{
-                duration: 2.5,
-             }}>          
-          <h1>ICNV CERÂMICA</h1>       
-        </motion.div>
+            
+          <h1>SHOP 40</h1>       
+        
         </div>
         <div className="menu">
           <input type="checkbox" id="checkbox-menu"  checked={isMenuOpen} onChange={handleMenuClick} />
@@ -85,10 +72,8 @@ export function Header() {
           
         
           <NavLink className={'navlink'} to="/projetos">Programação</NavLink>
+                  
           
-          
-          <NavLink to="https://www.youtube.com/@icnvceramica8839/streams" target={"_blank"}><div className="button2" ><p className='aovivo'>CULTO AO VIVO</p><img className="yt_aovivo"src={Aovivo} width="25PX" height="15px" alt="" /></div></NavLink>
-          <NavLink to="/dizimoseofertas"><div className="button" ><p className='curriculo'>DÍZIMOS E OFERTAS</p></div></NavLink>
         </div>
       </div>
     </Container>

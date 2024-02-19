@@ -8,7 +8,7 @@ export const Container = styled.div`
 position: sticky;
 margin-top:-50px;
 top:0;
-background-color:#272727;
+background-color:#fb0100;
 box-shadow: 0px 0px 30px 5px #454546 ;
 z-index:1;
 color:white;

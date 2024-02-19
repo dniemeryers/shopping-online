@@ -19,6 +19,7 @@ background-color:rgba(0,0,0,0.8);
     height:90px;
 }
 
+
 .informacao{
 
 
@@ -73,6 +74,67 @@ margin-bottom:-100px;
     margin-botton:50px;
 }
 
+.produtos{
+    background-color: white;
+    padding: 1px 0 20px 0;
+    box-shadow: 1px 1px 10px 0px #454546 ;
+
+    @media (min-width: 800px) {
+        width:95%;
+        margin:auto;
+    }
+}
+
+.descCat{
+    font-size:18px;
+}
+
+.categoria{
+    border: solid 1px lightgray;
+    text-align:center;
+    
+    width:200px;
+    margin:auto;
+    margin-top:10px;
+}
+
+.imagemCategoria{
+    border-radius:50%;
+    width:80px;
+    margin:auto;
+}
+
+.tituloCategoria{
+    font-family: 'Anton', sans-serif;
+    margin:0px 0 20px 10px;
+
+    @media (min-width: 800px) {
+        font-size: 20px;
+    }
+}
+
+.categorias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+   
+}
+
+.ofertas{
+    background-color: white;
+    padding: 1px 0 20px 0;
+    box-shadow: 0px 0px 20px 3px #454546 ;
+    
+    margin-top:150px;
+
+    @media (min-width: 800px) {
+        width:95%;
+        margin:auto;
+        margin-top:70px;
+    }
+}
+
+
 .button {  
     display:flex;
     width: 200px;
@@ -106,41 +168,12 @@ margin-bottom:-100px;
     }
   }
 
-.nossa_missao{
-    background-color: #dddddd;
-    padding: 1px 0 20px 0;
 
-    @media (min-width: 800px) {
-        width:70%;
-        margin:auto;
-    }
-}
 
-.missao{
-    font-family: 'Anton', sans-serif;
-    padding-bottom:20px;
 
-    @media (min-width: 800px) {
-        font-size: 40px;
-    }
-}
 
-h2 {
-    font-family: 'Dela Gothic One', cursive; 
-    font-size:28px;   
-    color:black;
-    padding:0;
-    margin:0;
-    
-    @media (min-width: 800px) {
-        font-size: 50px;
-        margin-left:100px;
-    }
-}
 
-.igual_jesus{
-    display:flex;
-}
+
 
 .letras_grandes{
     padding-left:10px;
@@ -193,16 +226,7 @@ img{
     }
 }
 
-h1{   
-    
-    font-size:32px;
-    font-family: 'Dela Gothic One', cursive;
-    text-align:center;
-    padding:0px;
-    margin:0;
-    margin-top:30px;
-    margin-bottom:70px;
-}
+
 
 
 
