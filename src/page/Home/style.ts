@@ -74,13 +74,17 @@ margin-bottom:-100px;
     margin-botton:50px;
 }
 
+h1{
+    font-family: 'Anton', sans-serif;
+    text-align:center;
+}
 .produtos{
     background-color: white;
     padding: 1px 0 20px 0;
     box-shadow: 1px 1px 10px 0px #454546 ;
 
     @media (min-width: 800px) {
-        width:95%;
+        width:100%;
         margin:auto;
     }
 }
@@ -93,6 +97,7 @@ margin-bottom:-100px;
     border: solid 1px lightgray;
     text-align:center;
     
+    height:150px;
     width:200px;
     margin:auto;
     margin-top:10px;
@@ -116,19 +121,23 @@ margin-bottom:-100px;
 .categorias{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
+   
+
+    @media (min-width: 800px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
    
 }
 
-.ofertas{
+.destaques{
     background-color: white;
-    padding: 1px 0 20px 0;
+   
     box-shadow: 0px 0px 20px 3px #454546 ;
     
     margin-top:150px;
 
     @media (min-width: 800px) {
-        width:95%;
+        width:100%;
         margin:auto;
         margin-top:70px;
     }

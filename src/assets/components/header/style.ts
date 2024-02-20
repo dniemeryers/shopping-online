@@ -84,9 +84,9 @@ p{
 }
 h1{  
   margin-left:15px;
-  margin-top:14px;
+  margin-top:20px;
   font-family: 'Raleway', sans-serif;
-  font-size:18PX; 
+  font-size:30PX; 
 }
 
 .icons{

@@ -36,7 +36,7 @@ export function Header() {
     <Container style={{zIndex: '3'}}  >
       <div className="icons">
       <div className='logo'>
-      <NavLink className={'navlink1'} to="/home"><img className="perfil" width="50px" src={LogoShop40} height="50px" alt="" /></NavLink>
+      <NavLink className={'navlink1'} to="/home"><img className="perfil" width="80px" src={LogoShop40} height="80px" alt="" /></NavLink>
      
      
             
@@ -58,14 +58,14 @@ export function Header() {
         onMouseEnter={handleIgrejaHover}
         onMouseLeave={handleIgrejaLeave}
       >
-        Igreja
+        Categorias
         {igrejaHovered && ( // Renderize os links adicionais se igrejaHovered for verdadeiro
           <div className="igreja-links">
-           <NavLink className={'child_navlink'} to="">Declaração de fé</NavLink>
-          <NavLink className={'child_navlink'} to="/nossa_historia">Nossa História</NavLink>
-          <NavLink className={'child_navlink'} to="/ondeEstamos">Onde Estamos</NavLink>
-          <NavLink className={'child_navlink'} to="/lideranca">Liderança</NavLink>
-          <NavLink className={'child_navlink'} to="/cttemidia">Contatos e Mídias Sociais</NavLink>
+           <NavLink className={'child_navlink'} to="">Celular</NavLink>
+          <NavLink className={'child_navlink'} to="/nossa_historia">Acessorios Eletrônico</NavLink>
+          <NavLink className={'child_navlink'} to="/ondeEstamos">Roupa feminina/Plus Size</NavLink>
+          <NavLink className={'child_navlink'} to="/lideranca">Roupa Masculina</NavLink>
+          <NavLink className={'child_navlink'} to="/cttemidia">Tênis Masc/Fem</NavLink>
           </div>
         )}
       </div>
