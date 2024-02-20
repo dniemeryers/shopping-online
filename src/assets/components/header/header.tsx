@@ -42,7 +42,7 @@ export function Header() {
             
           <h1>SHOP 40</h1>       
         
-        </div>
+        {/*</div>
         <div className="menu">
           <input type="checkbox" id="checkbox-menu"  checked={isMenuOpen} onChange={handleMenuClick} />
           <label style={{zIndex: '1'}} htmlFor="checkbox-menu">
@@ -68,10 +68,10 @@ export function Header() {
           <NavLink className={'child_navlink'} to="/cttemidia">Tênis Masc/Fem</NavLink>
           </div>
         )}
-      </div>
+  </div>
           
         
-          <NavLink className={'navlink'} to="/projetos">Programação</NavLink>
+          <NavLink className={'navlink'} to="/projetos">Programação</NavLink>*/}
                   
           
         </div>

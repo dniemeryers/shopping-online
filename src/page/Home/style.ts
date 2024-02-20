@@ -69,6 +69,8 @@ color: black;
 heigth:100%vh;
 margin-top:54px;
 margin-bottom:-100px;
+width:98%;
+margin:auto;
 
 @media (min-width: 800px) {
     margin-botton:50px;
@@ -78,10 +80,15 @@ h1{
     font-family: 'Anton', sans-serif;
     text-align:center;
 }
+h2{
+    color:black;
+}
 .produtos{
     background-color: white;
     padding: 1px 0 20px 0;
     box-shadow: 1px 1px 10px 0px #454546 ;
+    width:98%;
+    
 
     @media (min-width: 800px) {
         width:100%;
@@ -95,17 +102,18 @@ h1{
 
 .categoria{
     border: solid 1px lightgray;
+   
     text-align:center;
     
-    height:150px;
-    width:200px;
+    height:200px;
+    width:100%;
     margin:auto;
-    margin-top:10px;
+   
 }
 
 .imagemCategoria{
-    border-radius:50%;
-    width:80px;
+
+    width:150px;
     margin:auto;
 }
 
@@ -121,10 +129,15 @@ h1{
 .categorias{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  
+    
+    
    
 
     @media (min-width: 800px) {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        margin:auto;
+        margin:0 -1px 0 -1px;
     }
    
 }
