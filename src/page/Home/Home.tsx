@@ -17,7 +17,7 @@ const categories = [
   },
   {
     name: 'Fones de ouvido',
-    link: 'https://www.magazinevoce.com.br/magazineniemeyer/busca/fone%2Bde%2Bouvido/?sortOrientation=asc&sortType=price&filters=price---1500%3A110396',
+    link: 'https://www.magazinevoce.com.br/magazineniemeyer/busca/fone+de+ouvido/?filters=price---5000%3A200000&page=1&sortOrientation=asc&sortType=price',
     image: 'https://a-static.mlcdn.com.br/800x560/fone-de-ouvido-sem-fio-jbl-t520bt-bluetooth-5-3-com-microfone-e-bateria-57h/pegmix01/jblt520btblk/de117832f9451179c7f725ee0b461b2e.jpeg',
   },
   {
